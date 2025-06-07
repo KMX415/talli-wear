@@ -3,12 +3,4 @@ plugins {
     alias(libs.plugins.androidApplication) apply false
     alias(libs.plugins.jetbrainsKotlinAndroid) apply false
     alias(libs.plugins.androidLibrary) apply false
-}
-
-buildscript {
-    ext {
-        compose_version = "1.6.8"
-        wear_compose_version = "1.3.1"
-        kotlin_version = "1.9.23"
-    }
 } 
